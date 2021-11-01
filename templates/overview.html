@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node Practice</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        padding: 10px;
+        margin-top: 2%;
+      }
+      .container {
+        max-width: 720px;
+        background: rgba(31, 3, 34, 0.89);
+        margin: 0 auto;
+        padding: 20px;
+        /* height: 90vh; */
+      }
+
+      .container h1 {
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+      }
+
+      .name-block {
+        background: #e1e1e1;
+        position: relative;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+      }
+
+      .name {
+        color: rgb(54, 46, 46);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .name h2 {
+        font-size: 20px;
+        color: #222;
+      }
+      a {
+        text-decoration: none;
+        background-color: #2e2929;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: #eee;
+      }
+      a:hover {
+        background-color: rgb(95, 69, 69);
+        color: #eee;
+      }
+      .completed {
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        right: -5px;
+        top: -3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>SIMPLE NODE PROJECT</h1>
+        {%CARDS%}
+      </div>
+    </main>
+  </body>
+</html>

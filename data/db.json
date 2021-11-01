@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Build an Api",
+    "completed": false,
+    "description": "A mini project of me trying to learn how to build my own simple api using nodejs"
+  },
+  {
+    "id": 1,
+    "name": "Build my Portfolio",
+    "completed": false,
+    "description": "I will be bilding a portfolio t showcase my frontend development works and project soon"
+  },
+  {
+    "id": 2,
+    "name": "Build popular project clones",
+    "completed": true,
+    "description": "Build clones of very popular websites / webapps to consolidate my knowledge of ReactJs"
+  },
+  {
+    "id": 3,
+    "name": "Continue learning Backend Development",
+    "completed": false,
+    "description": "Continue learning backend web development using Jonas NodeJs course"
+  }
+]
